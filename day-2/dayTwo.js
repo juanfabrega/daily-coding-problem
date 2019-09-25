@@ -28,7 +28,7 @@
    return arrayOfSums;
  }
 
- // TEST 1 -- EXPECT 
+ // TEST 1
 const arrayOfNumbers1 = [1, 2, 3, 4, 5];
 
 console.log('\n');
@@ -39,4 +39,16 @@ console.log('EXPECTED RESULT: [120, 60, 40, 30, 24]');
 console.log('ACTUAL RESULT TWO PASS FUNCTION: ', multiplyAllArrayValuesExceptIndex(arrayOfNumbers1));
 console.log('='.repeat(40));
 
+
+ // TEST 2
+ const arrayOfNumbers2 = [3, 2, 1];
+
+ console.log('\n');
+ console.log('='.repeat(40));
+ console.log('TEST 1');
+ console.log('ARRAY: ', JSON.stringify(arrayOfNumbers2));
+ console.log('EXPECTED RESULT: [2, 3, 6]');
+ console.log('ACTUAL RESULT TWO PASS FUNCTION: ', multiplyAllArrayValuesExceptIndex(arrayOfNumbers2));
+ console.log('='.repeat(40));
+ 
 
