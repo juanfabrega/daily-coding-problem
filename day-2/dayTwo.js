@@ -10,6 +10,8 @@
  * If our input was [3, 2, 1], the expected output would be [2, 3, 6].
  * 
  * Follow-up: what if you can't use division?
+ * 
+ * NEW COMMENT FOR TESTING PURPOSES.
  */
 
  const multiplyAllArrayValuesExceptIndex = (array) => {
